@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Only Dashboard</h1>
+
+    <form action="{{ url_for('auth.logout') }}" method="get">
+        <button type="submit">Logout</button>
+    </form>
+</body>
+</html>
